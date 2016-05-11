@@ -20,11 +20,12 @@ int main()
     noecho();               //Don't echo any keypresses
     curs_set(FALSE);        //Don't display a cursor
 
-    //Global var 'stdscr' is created by the call to 'initscr()'
-    getmaxyx(stdscr, max_y, max_x);
 
     while(1)
     {
+        //Global var 'stdscr' is created by the call to 'initscr()'
+        getmaxyx(stdscr, max_y, max_x);
+
         clear();            //clear screen of previously printed characters
         mvprintw(y,x, "o"); //Print our "ball" at the current xy position
         refresh();

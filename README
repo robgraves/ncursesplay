@@ -1,0 +1,22 @@
+This repsoitory exists solely as a means for me to test and learn ncurses.  I wanna start coding maybe a simple game or some kind of application that has some usefulness to it using ncurses to cut my teeth with it.  At first this will probably just be me goign through some tutorials learning to use ncurses.
+
+--Matthew Page (robgraves) 05/10/2016
+
+
+
+
+Or create a new repository on the command line
+
+echo "# ncursesplay" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/robgraves/ncursesplay.git
+git push -u origin master
+
+...or push an existing repository from the command line
+
+git remote add origin https://github.com/robgraves/ncursesplay.git
+git push -u origin master
+
+

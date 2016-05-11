@@ -11,6 +11,9 @@ int main()
     noecho();           //Don't echo any keypresses
     curs_set(FALSE);    //Don't Display a cursor   
 
+    mvprintw(0,0, "Hello, World!");
+    refresh();
+
     sleep(1);
 
     endwin();   //Restore normal terminal behavior

@@ -1,5 +1,5 @@
 #OBJS specifies which files to compile as part of the project 
-OBJS = demo.c 
+OBJS = color.c 
 
 #CC specifies which compiler we're using 
 CC = gcc
@@ -12,7 +12,7 @@ COMPILER_FLAGS = -w
 LINKER_FLAGS = -lncurses 
 
 #OBJ_NAME specifies the name of our exectuable 
-OBJ_NAME = demo
+OBJ_NAME = color
 
 #This is the target that compiles our executable 
 all : $(OBJS) 
